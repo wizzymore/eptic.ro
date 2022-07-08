@@ -1,1 +1,2 @@
-web: vendor/bin/heroku-php-nginx -C nginx.conf public/ && yarn serve
+web: vendor/bin/heroku-php-nginx -C nginx.conf public/
+web2: yarn serve
